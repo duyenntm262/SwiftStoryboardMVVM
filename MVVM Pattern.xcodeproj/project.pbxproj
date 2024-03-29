@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		2DE52E632BB56B7C00D8F068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E622BB56B7C00D8F068 /* AppDelegate.swift */; };
 		2DE52E652BB56B7C00D8F068 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E642BB56B7C00D8F068 /* SceneDelegate.swift */; };
-		2DE52E672BB56B7C00D8F068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E662BB56B7C00D8F068 /* ViewController.swift */; };
 		2DE52E6A2BB56B7C00D8F068 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2DE52E692BB56B7C00D8F068 /* Base */; };
 		2DE52E6C2BB56B7C00D8F068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE52E6B2BB56B7C00D8F068 /* Assets.xcassets */; };
 		2DE52E6F2BB56B7C00D8F068 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 2DE52E6E2BB56B7C00D8F068 /* Base */; };
 		2DE52E7A2BB56B7D00D8F068 /* MVVM_PatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E792BB56B7D00D8F068 /* MVVM_PatternTests.swift */; };
 		2DE52E842BB56B7D00D8F068 /* MVVM_PatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E832BB56B7D00D8F068 /* MVVM_PatternUITests.swift */; };
 		2DE52E862BB56B7D00D8F068 /* MVVM_PatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E852BB56B7D00D8F068 /* MVVM_PatternUITestsLaunchTests.swift */; };
+		2DE52E932BB56C1500D8F068 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E922BB56C1500D8F068 /* LoginViewController.swift */; };
+		2DE52E952BB56C2200D8F068 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E942BB56C2200D8F068 /* HomeViewController.swift */; };
+		2DE52E972BB5704700D8F068 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E962BB5704700D8F068 /* User.swift */; };
+		2DE52E992BB570BC00D8F068 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E982BB570BC00D8F068 /* LoginViewModel.swift */; };
+		2DE52E9C2BB5713700D8F068 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E9B2BB5713700D8F068 /* ObservableObject.swift */; };
+		2DE52EA02BB572CD00D8F068 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52E9F2BB572CD00D8F068 /* NetworkService.swift */; };
+		2DE52EA32BB57E3100D8F068 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE52EA22BB57E3100D8F068 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		2DE52E5F2BB56B7C00D8F068 /* MVVM Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE52E622BB56B7C00D8F068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DE52E642BB56B7C00D8F068 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DE52E662BB56B7C00D8F068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DE52E692BB56B7C00D8F068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DE52E6B2BB56B7C00D8F068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DE52E6E2BB56B7C00D8F068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		2DE52E7F2BB56B7D00D8F068 /* MVVM PatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM PatternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE52E832BB56B7D00D8F068 /* MVVM_PatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_PatternUITests.swift; sourceTree = "<group>"; };
 		2DE52E852BB56B7D00D8F068 /* MVVM_PatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_PatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2DE52E922BB56C1500D8F068 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2DE52E942BB56C2200D8F068 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2DE52E962BB5704700D8F068 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2DE52E982BB570BC00D8F068 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2DE52E9B2BB5713700D8F068 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		2DE52E9F2BB572CD00D8F068 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		2DE52EA22BB57E3100D8F068 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +113,15 @@
 			children = (
 				2DE52E622BB56B7C00D8F068 /* AppDelegate.swift */,
 				2DE52E642BB56B7C00D8F068 /* SceneDelegate.swift */,
-				2DE52E662BB56B7C00D8F068 /* ViewController.swift */,
 				2DE52E682BB56B7C00D8F068 /* Main.storyboard */,
 				2DE52E6B2BB56B7C00D8F068 /* Assets.xcassets */,
 				2DE52E6D2BB56B7C00D8F068 /* LaunchScreen.storyboard */,
 				2DE52E702BB56B7C00D8F068 /* Info.plist */,
+				2DE52E9A2BB570D600D8F068 /* LoginView */,
+				2DE52EA12BB57E0500D8F068 /* HomeView */,
+				2DE52E962BB5704700D8F068 /* User.swift */,
+				2DE52E9B2BB5713700D8F068 /* ObservableObject.swift */,
+				2DE52E9F2BB572CD00D8F068 /* NetworkService.swift */,
 			);
 			path = "MVVM Pattern";
 			sourceTree = "<group>";
@@ -125,6 +141,24 @@
 				2DE52E852BB56B7D00D8F068 /* MVVM_PatternUITestsLaunchTests.swift */,
 			);
 			path = "MVVM PatternUITests";
+			sourceTree = "<group>";
+		};
+		2DE52E9A2BB570D600D8F068 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				2DE52E922BB56C1500D8F068 /* LoginViewController.swift */,
+				2DE52E982BB570BC00D8F068 /* LoginViewModel.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		2DE52EA12BB57E0500D8F068 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				2DE52E942BB56C2200D8F068 /* HomeViewController.swift */,
+				2DE52EA22BB57E3100D8F068 /* HomeViewModel.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +292,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE52E672BB56B7C00D8F068 /* ViewController.swift in Sources */,
+				2DE52E932BB56C1500D8F068 /* LoginViewController.swift in Sources */,
+				2DE52EA32BB57E3100D8F068 /* HomeViewModel.swift in Sources */,
 				2DE52E632BB56B7C00D8F068 /* AppDelegate.swift in Sources */,
+				2DE52EA02BB572CD00D8F068 /* NetworkService.swift in Sources */,
+				2DE52E992BB570BC00D8F068 /* LoginViewModel.swift in Sources */,
 				2DE52E652BB56B7C00D8F068 /* SceneDelegate.swift in Sources */,
+				2DE52E9C2BB5713700D8F068 /* ObservableObject.swift in Sources */,
+				2DE52E972BB5704700D8F068 /* User.swift in Sources */,
+				2DE52E952BB56C2200D8F068 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
